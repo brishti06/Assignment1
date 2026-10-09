@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /*Colour palette from Adobe Color*/
+/* TABLET: viewport 481px to 960px */
 
 body {
     background-color: #ECE7E4;
@@ -9,7 +10,7 @@ body {
 }
 
 #wrapper {
-    width: 960px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ECE7E4;
@@ -20,15 +21,14 @@ body {
 
 h1,h2,h3,p,li {
     margin-left: 15px;
+    margin-top: 0px;
 }
 
 header {
     background-color: #D7C6B4;
     background: linear-gradient(to bottom, #D7C6B4 0%, #ECE7E4 100%);
-    color: #262626; 
+    color: #262626;
     padding: 25px;
-
-       
 }
 
 nav ul {
@@ -46,17 +46,16 @@ nav li {
     background-color: #D7C6B4;
     color: #262626;
     display: block;
-    width: 20%;
+    width: 17%;
     float: left;
     padding: 10px;
     margin: 5px;
-
 }
 
 footer {
     background-color: #D7C6B4;
     background: linear-gradient(to bottom, #D7C6B4 0%, #ECE7E4 100%);
-    color: #262626; 
+    color: #262626;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -66,7 +65,7 @@ footer {
 
 figure {
     position: relative;
-    width: 150px;
+    width: 25%;
     margin-top: 50px;
     margin-left: 15px;
     padding: 5px;
@@ -75,37 +74,32 @@ figure {
 }
 
 figure img {
-    width: 100%; 
+    width: 100%;
 }
 
 video {
     float: right;
-    width: 300px;
+    width: 40%;
     padding: 5px;
     margin-top: 50px;
     margin-right: 15px;
 }
+
 .project {
-    width: 90%;
+    width: 42%;
     min-height: 100px;
     float: left;
     background-color: #D7C6B4;
     margin: 15px;
-    opacity: 1; 
+    opacity: 1;
     border: 1px solid #262626;
+}
 
- }
-
- .field {
-    width: 60%;
-    min-height: 100px;
-    float: left;
-    background-color: #D7C6B4;
-    margin: 5px;
-    opacity: 1; 
+.field {
+    width: 85%;
     padding: 5px;
-    border: 1px solid #262626;
- }
+    margin: 5px;
+}
 
 .button:hover {
     background-color: #ECE7E4;
