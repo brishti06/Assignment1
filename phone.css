@@ -19,7 +19,7 @@ body {
     padding-bottom: 140px; /* Height of the footer */
 }
 
-h1,h2,h3,p,li {
+h1,h2,h3,p {
     margin-left: 15px;
     margin-top: 0px;
 }
@@ -29,15 +29,6 @@ header {
     background: linear-gradient(to bottom, #D7C6B4 0%, #ECE7E4 100%);
     color: #262626;
     padding: 15px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0; padding: 0;
-}
-
-nav li {
-    float: none;
 }
 
 .button {
@@ -54,7 +45,7 @@ nav li {
 
 footer {
     background-color: #D7C6B4;
-    background: linear-gradient(to bottom, #D7C6B4 0%, #ECE7E4 100%);
+    background: linear-gradient(45deg, #D7C6B4 0%, #ECE7E4 100%);
     color: #262626;
     position: absolute;
     bottom: 0;
@@ -105,4 +96,7 @@ video {
 .button:hover {
     background-color: #ECE7E4;
     box-shadow: 5px 5px 3px #B5AFA6;
+}
+.clear {
+    clear:both;
 }
